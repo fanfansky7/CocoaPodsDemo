@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "myDynamicFramework"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of myDynamicFramework."
+  spec.version      = "1.0.0"
+  spec.summary      = "try post framework to Cocoapods"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                     my first framework  in Cocoapods
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/myDynamicFramework"
+  spec.homepage     = "https://github.com/fanfansky7/CocoaPodsDemo"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "fanfanhome" => "364549495@qq.com" }
+  spec.author             = "fanfansky7"
   # Or just: spec.author    = "fanfanhome"
   # spec.authors            = { "fanfanhome" => "364549495@qq.com" }
   # spec.social_media_url   = "https://twitter.com/fanfanhome"
@@ -64,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  # spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/myDynamicFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/fanfansky7/CocoaPodsDemo.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
